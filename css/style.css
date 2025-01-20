@@ -166,11 +166,19 @@
     width: 100%;
   }
   .navbar{
-    padding: 0 10px;
+    align-items: center;
+  }
+  .brand img{
+    margin-left: 20px;
   }
   .menu-icon{
     display: contents;
     font-size: 40px;
+    margin-right: 50px;
+  }
+  .fa-bars{
+    margin-right: 50px;
+    margin-bottom: 15px;
   }
   .brand h2,
   .nav-items,
