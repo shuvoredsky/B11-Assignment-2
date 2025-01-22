@@ -336,9 +336,21 @@ padding-top: 50px;
    {
     display: none;
   }
+  .small-card-container{
+    /* width: 100%; */
+    gap: 10px;
+    /* padding: 0 100px; */
+  }
+  .small-card-title{
+    /* font-size: 0.5rem; */
+    font-weight: bold;
+    margin: -7px 25px;
+
+  }
   .our-stories{
     background-color: rgba(255, 255, 255, 0.342);
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255, 244, 220, 1)), url(../assets/bg.png);;
+    width: 100%;
   }
   .hero-section{
     margin-top: 20px;
@@ -350,8 +362,8 @@ padding-top: 50px;
     width: 100%;
   }
   .small-card{
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
   }
   .small-card-date{
     height: 22px;
@@ -366,6 +378,9 @@ padding-top: 50px;
     border-radius: 16px;
     padding: 5px 15px;
     }
+    .sky-blue-date{
+      background-color: #5D58F0;
+    }
   .small-card h4{
     font-size: 0.5rem;
     line-height: 1.5;
@@ -374,9 +389,6 @@ padding-top: 50px;
   }
   .small-card img{
     width: 100%;
-  }
-  .footer-item h4{
-    margin-bottom: 20px;
   }
   .hero-content{
     text-align: center;
@@ -392,10 +404,15 @@ padding-top: 50px;
   }
   .curriculum{
     width: 100%;
-    margin: 0 auto;
+    margin: 0 -21px;
   }
   .curriculam-items{
     flex-direction: column;
+    /* width: 100%; */
+    margin: 0 20px;
+}
+.curriculam-item{
+  width: 300px;
 }
 .slide-option{
     display: none;
@@ -403,6 +420,7 @@ padding-top: 50px;
 .footer{
   padding-top: 50px;
   height: 100%;
+  width: 100%;
 }
 .footer-content{
   flex-direction: column;
@@ -411,11 +429,15 @@ padding-top: 50px;
 }
 .footer-item{
   padding: 0 20px;
+  width: 300px;
 }
 .footer-item h3{
   padding-bottom: 20px;
 }
 .community-links{
   margin-bottom: 50px;
+}
+.footer-brand-description{
+  width: 290px;
 }
 }
