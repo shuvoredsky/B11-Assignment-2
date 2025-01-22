@@ -258,6 +258,7 @@ padding-top: 50px;
   color: white;
   margin: 70px auto;
   cursor: pointer;
+  border-radius: 16px;
 }
 .story-last-btn{
   text-align: center;
@@ -435,6 +436,10 @@ padding-top: 50px;
 }
 .curriculam-item{
   width: 300px;
+}
+.standard-curriculam{
+  text-align: center;
+  margin-left: 50px;
 }
 .slide-option{
     display: none;
