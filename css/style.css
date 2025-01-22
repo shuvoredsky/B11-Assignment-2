@@ -56,6 +56,9 @@
   margin-top: 20px;
   background-image: none;
 }
+.nav-special{
+  display: none;
+}
 .brand {
   align-items: center;
   gap: 11px;
@@ -312,8 +315,26 @@ padding-top: 50px;
   .main-section {
     width: 100%;
   }
+  .nav-special{
+    display: contents;
+  }
+  .marquee-text{
+    font-weight: 600;
+    font-size: 1rem;
+    width: 50%;
+    background-color: orange;
+    color: white;
+    border-radius: 16px;
+    height: 30px;
+    padding: 5px; 
+    margin-left: 10px;
+  }
   .navbar{
     align-items: center;
+    border: 1px solid orange;
+    margin-top: 10px;
+    padding: 10px 5px;
+    /* background-color: rgba(255, 166, 0, 0.219)  ; */
   }
   .brand img{
     margin-left: 20px;
