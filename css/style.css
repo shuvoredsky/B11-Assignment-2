@@ -257,6 +257,7 @@ padding-top: 50px;
   background-color: black;
   color: white;
   margin: 70px auto;
+  cursor: pointer;
 }
 .story-last-btn{
   text-align: center;
